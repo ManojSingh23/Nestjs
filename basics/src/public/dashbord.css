@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#dashboard{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin-top: 250px;
+    margin-left: 500px;
+    
+
+}
+#admin,#user{
+    
+    position: relative;
+    text-align: center; 
+    border-style: solid;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    width: 200px;
+    
+    margin-left:100px;
+    padding-top: 80px;
+    border-radius: 10px;
+    border-color: rgb(131, 126, 126);
+    background: #89917e
+  
+}
+body{
+    background-color: #2a363b
+}
+a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
+    font-size: x-large;
+}
+
