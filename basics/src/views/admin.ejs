@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+   
+    <link rel="stylesheet" href="admin.css">
+    
+</head>
+<body>
+    <div>
+        <h1>Welcome <%=data%></h1>
+        <div>
+            <table id="table_id" class="display">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>username</th>
+                        <th>email</th>
+                        <th>button</th>
+                    </tr>   
+                </thead>
+                
+                <tbody id="tbody"></tbody>  
+                
+            </table>
+        </div>
+    </div>
+    
+    
+    <a href="clearCookie"><button type="button" >Logout</button></a>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="admin.js"></script>
+<script src="adminAPI.js"></script>
+</html>
